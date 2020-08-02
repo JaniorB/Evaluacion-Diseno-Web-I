@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    display: grid;
+    grid-template-rows: 100px 600px 600px;
+    grid-template-areas: "h"
+                         "s"
+                         "i";
+}
+
+.h {
+    grid-area: h;
+}
+
+.s {
+    grid-area: s;
+}
+
+.i {
+    grid-area: i;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+}

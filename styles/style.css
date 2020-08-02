@@ -1,0 +1,26 @@
+.header {
+    background: red;
+}
+
+.logo {
+    height: 100%;
+}
+
+.button {
+    display: inline;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    inline-size: 1000px;
+    padding-left: 150px;
+}
+
+.item {
+    width: 300px;
+    height: 250px;
+    background: blue;
+}
